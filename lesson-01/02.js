@@ -7,15 +7,11 @@
 
 // your code
 let factorial = 1;
-
 let count = 1;
-
 let result = 10;
 
 while (count <= result) {
     factorial = factorial * count;
-
     count++
 }
-
 console.log(factorial)
