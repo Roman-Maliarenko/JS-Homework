@@ -9,11 +9,7 @@ let count = 0;
 let result = 20;
 
 while (count <= result) {
-
     sum = count + sum;
-
     count++;
-
 }
-
 console.log(sum)
