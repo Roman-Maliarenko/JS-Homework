@@ -16,10 +16,6 @@
 */
 
 
-let arrayNum = [1, 2, 3, 4, 5, 1, 3, 4];
-
-let newArray = [];
-
 function includesElement(array, elem) {
     for (let i = 0; i < array.length; i++) {
         if (array[i] === elem) {
@@ -29,8 +25,12 @@ function includesElement(array, elem) {
     return false
 }
 
+let arrayNum = [1, 2, 3, 4, 5, 5, "apple","banana","orange", "orange"];
+
+
 
 function findUniqueElements(array) {
+    let newArray = [];
     for (let i = 0; i < array.length; i++) {
         if (!includesElement(newArray, array[i])) {
             newArray.push(array[i]);

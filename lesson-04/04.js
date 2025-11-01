@@ -12,9 +12,9 @@
 Пример работы функции: `doubleEachCharacter('hello')` вернёт `'hheelllloo'`
 */
 
-let string = "";
 
 function doubleEachCharacter(str) {
+    let string = "";
     for (let i = 0; i < str.length; i++) {
         let newString = str[i] + str[i];
         string = string + newString;
