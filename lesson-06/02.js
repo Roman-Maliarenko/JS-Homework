@@ -43,3 +43,9 @@ const map = (array, callback) => {
 }
 
 console.log(map(numbers, callback));
+
+
+
+
+
+
