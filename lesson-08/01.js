@@ -7,7 +7,7 @@
 */
 
 
-let array = "hello world from javaScript";
+let array = "hello world from javascript";
 
 function capitalizeWords(string) {
     const str = string.split("");
